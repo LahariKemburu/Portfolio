@@ -1,0 +1,76 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+#social-media {
+    text-align: left; 
+    margin-top: 20px;
+}
+
+#social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+#social-media li {
+    margin: 5px 0;
+}
+@keyframes increaseSize {
+    0% {
+      transform: scale(1); /* Initial size */
+    }
+    100% {
+      transform: scale(1.5); /* Increased size (adjust as needed) */
+    }
+  }
+  
+  /* Apply the animation to an element */
+  .element-to-animate {
+    animation: increaseSize 2s ease-in-out; /* 2s duration with ease-in-out timing function */
+  }
+  
+
+  #social-media a {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    margin-right: 10px;
+    transition: all 0.3s ease; /* Add a smooth transition effect */
+}
+
+#social-media a:hover {
+    transform: scale(1.5); /* Increase size on hover */
+    color: blue;
+}
